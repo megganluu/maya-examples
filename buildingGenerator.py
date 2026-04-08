@@ -1,6 +1,4 @@
 import maya.cmds as mc
-if mc.window(myWindow, exists=True):
-        mc.deleteUI(myWindow)
 
 myWindow = mc.window(title="Building Generator", w=300, h=200)
 mc.columnLayout(adjustableColumn=True)
